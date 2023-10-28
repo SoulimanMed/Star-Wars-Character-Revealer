@@ -12,7 +12,7 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-image: url('/starWarsAPI/pictures/starWarsBGPic2.jpg');
+    background-image: url('/starWarsAPI/pictures/starWarsBGPic.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -72,10 +72,20 @@ button{
     width: 120px;
     text-align: center;
     justify-content: center;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 0px 0px 20px;
-}
-button:hover{
-    background-color: black;
+    background-color: #343030;
     color: white;
 }
+button:hover{
+    background-color: rgb(17, 17, 17);
+    color: rgb(226, 164, 30);
+}
+button:active{
+    background-color: rgb(226, 164, 30);
+    color: black;
+    transform: scale(0.95);
+    border-color: rgb(255, 174, 1);
+    
+}
+
