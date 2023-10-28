@@ -1,11 +1,11 @@
 /* fonts : AltOutline - Alternate */
 @font-face {
     font-family: 'swFont'; 
-    src: url('/starWarAPI/fonts/SF\ Distant\ Galaxy\ AltOutline.ttf') format('woff');
+    src: url('/starWarsAPI/fonts/SF\ Distant\ Galaxy\ AltOutline.ttf') format('woff');
 }
 @font-face {
     font-family: 'swFont1'; 
-    src: url('/starWarAPI/fonts/SF\ Distant\ Galaxy\ Alternate.ttf') format('woff');
+    src: url('/starWarsAPI/fonts/SF\ Distant\ Galaxy\ Alternate.ttf') format('woff');
 }
 /* Center the entire page content */
 body {
