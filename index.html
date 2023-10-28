@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet the Heroes of Star Wars</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body class="centringStyles">
+    <div class="form-container centringStyles">
+        <h1>The Galaxy Awaits <span class="specialYour">Your</span> Character</h1>
+        <h4>Click below to unveil your Star Wars character's secrets</h6>
+        <button onclick="fetchCaracter()">Reveal Identity</button>
+            <div class="data-container" id="dataContainer">
+                <div class="data-row sharedStyles">
+                    <div class="caption">Name</div>
+                    <div class="value" id="name"></div>
+                </div>
+                <div class="data-row sharedStyles">
+                    <div class="caption">Gender</div>
+                    <div class="value" id="gender"></div>
+                </div>
+                <div class="data-row sharedStyles">
+                    <div class="caption">Height</div>
+                    <div class="value" id="height"></div>
+                </div>
+                <div class="data-row sharedStyles">
+                    <div class="caption">Birth Year</div>
+                    <div class="value" id="birth_year"></div>
+                </div>
+                <div class="sharedStyles">
+                    <div class="caption">Films</div>
+                    <div class="value" id="films"></div>
+                </div>
+            </div>
+    </div>
+<script src="locate.js"></script>
+</body>
+</html>
