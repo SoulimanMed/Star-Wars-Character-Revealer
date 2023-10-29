@@ -1,18 +1,18 @@
 /* fonts : AltOutline - Alternate */
 @font-face {
     font-family: 'swFont'; 
-    src: url('/starWarsAPI/fonts/SF\ Distant\ Galaxy\ AltOutline.ttf') format('woff');
+    src: url('./fonts/SF\ Distant\ Galaxy\ AltOutline.ttf') format('woff');
 }
 @font-face {
     font-family: 'swFont1'; 
-    src: url('/starWarsAPI/fonts/SF\ Distant\ Galaxy\ Alternate.ttf') format('woff');
+    src: url('./fonts/SF\ Distant\ Galaxy\ Alternate.ttf') format('woff');
 }
 /* Center the entire page content */
 body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-image: url('/starWarsAPI/pictures/starWarsBGPic.jpg');
+    background-image: url('./pictures/starWarsBGPic.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -52,7 +52,7 @@ body {
 /* Titles  */
 h1{
     font-family: 'swFont', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    font-size: 30px;
+    font-size: 26px;
     margin: 30px 20px 10px;
 }
 .specialYour{
@@ -60,7 +60,7 @@ h1{
 }
 h4{
     font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 .caption{
     font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
